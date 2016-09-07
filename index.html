@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alison Kenney</title>
+	<!-- Set Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+	<!-- Navigation Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-liquid">
+            <div class="navbar-header">
+                <!--Burger navbar -->
+                <button type="button" id="mobile-toggle" class="navbar-toggle toggle-background collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="css/images/ak.png" class="navbar-brand" id="navbar-title" >
+            </div>
+          	<div id="navbar" class="navbar-collapse collapse">
+               <ul class="nav navbar-nav">
+                   <li><a href="#project-dropdown" id="projects">Projects</a></li>
+                   <li><a id="about" href="#about-me">About</a></li>
+                   <li><a id="contact" href="#contact-dropdown">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+                  <li><a href="https://github.com/alisonkenney" target="blank"><img src="css/images/github.png" id="github"></a></li>
+                  <li><a href="https://www.linkedin.com/in/alisonekenney" target="blank"><img src="css/images/linkedin.png" id="linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+	<div class="background">
+		<div class="col-md-6 col-md-offset-4 col-xs-10 col-xs-offset-1">
+    	<p class="header-title"> Hi! I'm Alison. </p>
+      <p class="header-description"> A full-stack web developer with an eye for design. </p>
+    </div>
+  </div>
+
+  <div class="container-fluid skills-section">
+    <div class="col-md-12">
+      <p class="tech-skills-heading">Technical Skills</p>
+    </div>
+
+    <div class="col-md-12">
+      <div class="col-md-2 col-md-offset-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/javascript.png">
+          <p class="tech-skills-description">JavaScript</p>
+        </div>  
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/jquery.png">
+          <p class="tech-skills-description">jQuery</p>
+        </div> 
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/html.png">
+          <p class="tech-skills-description">HTML5</p>
+        </div> 
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/css.png">
+          <p class="tech-skills-description">CSS3</p>
+        </div> 
+      </div>   
+    </div>
+
+    <div class="col-md-12">
+      <div class="col-md-2 col-md-offset-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/mongo.png">
+          <p class="tech-skills-description">mongoDB</p>
+        </div>  
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/express.png">
+          <p class="tech-skills-description">Express</p>
+        </div> 
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/angular.png">
+          <p class="tech-skills-description">AngularJS</p>
+        </div> 
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/node.png">
+          <p class="tech-skills-description">Node.js</p>
+        </div> 
+      </div>   
+    </div>
+
+    <div class="col-md-12">
+      <div class="col-md-2 col-md-offset-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/ruby.png">
+          <p class="tech-skills-description">Ruby</p>
+        </div>  
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/rails.png">
+          <p class="tech-skills-description">Rails</p>
+        </div> 
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/postgres.png">
+          <p class="tech-skills-description">PostgreSQL</p>
+        </div> 
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <div class="skills-column">
+          <img class="tech-skills" src="css/images/bootstrap.png">
+          <p class="tech-skills-description">Bootstrap</p>
+        </div> 
+      </div>   
+    </div>
+  </div>
+
+  <div class="container-fluid projects-section" id="project-dropdown">
+    <div class="col-md-12">
+      <p class="projects-heading">Projects</p>
+    </div>
+    <div class="col-md-12">
+
+      <div class="col-md-3">
+        <div class="project-img" style="background-image:url(css/images/recipe.png)">
+          <div class="overlay">
+            <p class="hover-text">Recipe Finder</p>
+            <div class="project-hover-div">
+              <p>Track your favorite recipes and share them on Facebook!</p>
+              <div class="icon-div">
+                <a id="project-links" href="http://recipe-findr.herokuapp.com/" target="blank">
+                <img class="project-icons" src="css/images/globe.png">
+                <p>Live</p>
+                </a>
+              </div>
+              <div class="icon-div">
+                <a id="project-links" href="https://github.com/alisonkenney/recipe_app" target="blank">
+                  <img class="project-icons" src="css/images/github_dark.png">
+                  <p>Code</p>
+                </a>  
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="project-img" style="background-image:url(css/images/vagabond.png)">
+          <div class="overlay">
+            <p class="hover-text">Vagabond</p>
+            <div class="project-hover-div">
+              <p>Share your stories of travel and adventure!</p>
+              <div class="icon-div">
+                <a id="project-links" href="https://vagabond-blog.herokuapp.com/" target="blank">
+                <img class="project-icons" src="css/images/globe.png">
+                <p>Live</p>
+                </a>
+              </div>
+              <div class="icon-div">
+                <a id="project-links" href="https://github.com/alisonkenney/vagabond" target="blank">
+                    <img class="project-icons" src="css/images/github_dark.png">
+                    <p>Code</p>
+                </a>  
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="project-img" style="background-image:url(css/images/politicator.png)">
+          <div class="overlay">
+              <p class="hover-text">Politicator</p>
+              <div class="project-hover-div">
+                <p>See how your stance on current policies compare to the presidential candidates!</p>
+                <div class="icon-div">
+                  <a id="project-links" href="#" target="blank">
+                    <img class="project-icons" src="css/images/globe.png">
+                    <p>Live</p>
+                  </a>
+                </div>
+                <div class="icon-div">
+                  <a id="project-links" href="#" target="blank">
+                    <img class="project-icons" src="css/images/github_dark.png">
+                    <p>Code</p>
+                  </a>  
+              </div>
+              </div>
+          </div> 
+        </div>  
+      </div>
+
+      <div class="col-md-3">
+        <div class="project-img" style="background-image:url(css/images/adventure.png)">
+          <div class="overlay">
+              <p class="hover-text">AdventureCO</p>
+              <div class="project-hover-div">
+                <p>Discover new adventures in Colorado and share your ideas with others!</p>
+                <div class="icon-div">
+                  <a id="project-links" href="#" target="blank">
+                    <img class="project-icons" src="css/images/globe.png">
+                    <p>Live</p>
+                  </a>
+                </div>
+                <div class="icon-div">
+                  <a id="project-links" href="#" target="blank">
+                    <img class="project-icons" src="css/images/github_dark.png">
+                    <p>Code</p>
+                  </a>  
+                </div>
+              </div>
+          </div> 
+        </div>
+      </div>
+
+    </div> 
+  </div> 
+
+  <div class="container-fluid contact-section" id="contact-dropdown">
+    <div class="col-md-12">
+      <p class="contact-heading">Contact</p>
+    </div>
+    <div class="col-md-8 col-md-offset-2 contact-img-div">
+      <img class="headshot" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAVVAAAAJDcyM2IyMDUyLTg2OTYtNGVlZC04ZTg2LWI5MjY1NDE0MmRkYw.jpg">
+    </div>
+    <div class="col-md-12">
+          <div class="col-md-8 col-md-offset-2" style="text-align:center;">
+            <div class="email-div col-md-4">
+              <img class="phone" src="css/images/phone.png">
+              <p style="text-align:center;">970.231.1363</p>
+            </div>
+            <div class="phone-div col-md-4">  
+              <img class="email" src="css/images/email.png">
+              <p style="text-align:center;">alisonkenney1@gmail.com</p>
+            </div>
+            <div class="linkedin-div col-md-4"> 
+              <img class="linkedin-contact" src="css/images/linkedin_dark.png">
+              <p style="text-align:center;">www.linkedin.com/in/alisonekenney</p>
+            </div>
+          </div>
+    </div>     
+  </div>   
+ 
+
+ 
+
+      <!--Bootstrap JQuery-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- Bootstrap JS CDN--> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+</html>
